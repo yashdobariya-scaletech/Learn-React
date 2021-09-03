@@ -1,0 +1,44 @@
+
+h1{
+    font-size: 50px
+}
+.main{
+    background-color: black;
+    padding: 10px 30px;
+    margin: 0px 300px;
+    border-radius: 30px;
+}
+
+.expense-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius:15px;
+    background-color: #ADEFD1FF;
+    /* box-shadow: 10px 10px #00203FFF; */
+    color: black;
+}
+
+
+.expense-item__description{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    margin: 10px;
+}
+
+.expense-item__description h2{ 
+    font-size: 40px;
+}
+
+.expense-item__price{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px 50px;
+    background-color: #00203FFF;
+    color: white;
+    border-radius: 30px;
+}
