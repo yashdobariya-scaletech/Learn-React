@@ -4,10 +4,10 @@ import Card from "./components/Card";
 
 function App() {
   const expenses = [ 
-    {title: "Room Rent", amount: '₹7000', date: new Date(2021,8,1)},
-    {title: "Transpotation", amount: '₹2000', date: new Date(2021,2,1)},
-    {title: "Buy Car", amount: '₹5000000', date: new Date(2019,9,1)},
-    {title: "Trip", amount: '₹17000', date: new Date(2021,4,1)},
+    {title: "Room Rent", amount: '₹800', date: new Date(2021,8,1)},
+    {title: "Transpotation", amount: '₹800', date: new Date(2021,2,1)},
+    {title: "Buy Car", amount: '₹800', date: new Date(2019,9,1)},
+    {title: "Trip", amount: '₹800', date: new Date(2021,4,1)},
   ]
   return (
     <div className="container">

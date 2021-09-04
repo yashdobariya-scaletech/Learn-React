@@ -1,0 +1,41 @@
+.new-expense__controls{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.new-expense__control{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.new-expense__control label{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.new-expense__control input{
+    outline: none;
+    border: none;
+    padding: 15px;
+    width: 460px;
+    font-size: 20px;
+}
+
+.new-expense__actions{
+    padding: 50px 50px 0px 50px;
+    margin-left: 260px;
+}
+
+.new-expense__actions button{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 30px;
+    background-color: #00203FFF;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
