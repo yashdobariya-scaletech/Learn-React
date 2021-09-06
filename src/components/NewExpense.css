@@ -1,6 +1,7 @@
 .new-expense{
    background-color: #ADEFD1FF;
    color: black;
-   margin: 50px 300px;
+   /* min-width: 550px; */
+   /* margin: 50px 300px; */
 
 }

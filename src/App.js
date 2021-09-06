@@ -1,39 +1,27 @@
-import ExpenseItem from "./components/ExpenseItem"
 import NewExpense from "./components/NewExpense";
-import Card from "./components/Card";
+import Expense from "./components/Expense";
+import React, {useState} from "react";
+
+const dummyExpenses = [ 
+  {title: "Room Rent", amount: '₹800', date: new Date(2021,8,1)},
+  {title: "Transpotation", amount: '₹800', date: new Date(2021,2,1)},
+  {title: "Buy Car", amount: '₹800', date: new Date(2019,9,1)},
+  {title: "Trip", amount: '₹800', date: new Date(2021,4,1)},
+]
 
 function App() {
-  const expenses = [ 
-    {title: "Room Rent", amount: '₹800', date: new Date(2021,8,1)},
-    {title: "Transpotation", amount: '₹800', date: new Date(2021,2,1)},
-    {title: "Buy Car", amount: '₹800', date: new Date(2019,9,1)},
-    {title: "Trip", amount: '₹800', date: new Date(2021,4,1)},
-  ]
+
+  const [expenses, setexpenses] = useState(dummyExpenses)
+
+  const addExpenseHandle = (expense) => {
+    setexpenses(prevExpenses => {
+      return [expense, ...prevExpenses]
+    })
+  }
   return (
     <div className="container">
-        <NewExpense/>
-        <Card className="main">
-            <ExpenseItem
-              date={expenses[0].date}
-              title={expenses[0].title}
-              amount={expenses[0].amount}
-            />
-            <ExpenseItem 
-              date={expenses[1].date}
-              title={expenses[1].title}
-              amount={expenses[1].amount}
-            />
-            <ExpenseItem 
-              date={expenses[2].date}
-              title={expenses[2].title}
-              amount={expenses[2].amount}
-            />
-            <ExpenseItem 
-              date={expenses[3].date}
-              title={expenses[3].title}
-              amount={expenses[3].amount}
-            />
-        </Card>
+        <NewExpense onAddExpense={addExpenseHandle}/>
+        <Expense item={expenses}/>
     </div>
   );
 }

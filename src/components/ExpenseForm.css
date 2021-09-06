@@ -8,11 +8,12 @@
 
 .new-expense__control{
     padding: 20px;
-    display: flex;
-    flex-direction: column;
+    width: 40%;
+    
 }
 
 .new-expense__control label{
+    display: block;
     margin-bottom: 10px;
     font-weight: 600;
 }
@@ -21,13 +22,14 @@
     outline: none;
     border: none;
     padding: 15px;
-    width: 460px;
+    width: 100%;
     font-size: 20px;
 }
 
 .new-expense__actions{
-    padding: 50px 50px 0px 50px;
-    margin-left: 260px;
+    padding: 50px;
+    text-align: right;
+    /* margin-left: 260px; */
 }
 
 .new-expense__actions button{

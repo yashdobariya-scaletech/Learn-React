@@ -2,16 +2,18 @@
 h1{
     font-size: 50px
 }
-.main{
+.expense{
     background-color: black;
     padding: 10px 30px;
-    margin: 0px 300px;
+    margin-top: 50px;
+    width: 100%;
+        /* margin: 0px 300px; */
     /* border-radius: 30px; */
 }
 
 .expense-item{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     padding: 10px;
     margin: 20px 0px;

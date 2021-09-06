@@ -1,0 +1,22 @@
+.expenses-filter{
+    padding: 50px;
+}
+
+.expenses-filter__control{
+    display: flex;
+    justify-content: space-between;
+}
+
+.expenses-filter__control label{
+    font-size: 30px;
+}
+.expenses-filter__control select{
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10PX;
+    background-color: #ffffff;
+    outline: none;
+    border: none;
+}
