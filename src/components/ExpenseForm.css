@@ -1,6 +1,5 @@
 .new-expense__controls{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
     font-size: 20px;

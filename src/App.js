@@ -3,10 +3,10 @@ import Expense from "./components/Expense";
 import React, {useState} from "react";
 
 const dummyExpenses = [ 
-  {title: "Room Rent", amount: '₹800', date: new Date(2021,8,1)},
-  {title: "Transpotation", amount: '₹800', date: new Date(2021,2,1)},
-  {title: "Buy Car", amount: '₹800', date: new Date(2019,9,1)},
-  {title: "Trip", amount: '₹800', date: new Date(2021,4,1)},
+  {title: "Room Rent", amount: '3000', date: new Date(2021,8,1)},
+  {title: "Transpotation", amount: '1200', date: new Date(2021,2,1)},
+  {title: "Buy Car", amount: '9000000', date: new Date(2019,9,1)},
+  {title: "Trip", amount: '15000', date: new Date(2021,4,1)},
 ]
 
 function App() {

@@ -11,22 +11,23 @@
     width: 100%;
     border: none;
     border-radius: 10px;
-    background-color: #c3b4f3;
+    background-color: white;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
   }
   
-  .chart-bar__fill {
-    background-color: #4826b9;
+  .chart-bar__fill{
+    background-color: #00203FFF;
     width: 100%;
     transition: all 0.3s ease-out;
   }
   
   .chart-bar__label {
-    font-weight: bold;
+    margin-top: 5px;
     text-align: center;
     color: black;
-    font-size: 15px;
+    font-size: 13px;
+
   }
